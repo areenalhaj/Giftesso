@@ -1,0 +1,49 @@
+:root {
+  --offwhite: #fcf9f5;
+  --charcoal: #2d2d2d;
+  --muted-gold: #c5a059;
+  --rose: #e5d1d0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-size: 18px; */
+}
+body {
+  color: var(--charcoal);
+  background-color: var(--offwhite);
+  height: 100vh;
+}
+/* خط العناوين */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+/* خط الفقرات */
+p,
+div,
+span,
+label {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* خط الأزرار */
+nav a,
+button,
+.btn {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+a:hover {
+  font-weight: 600;
+  color: var(--muted-gold);
+}
