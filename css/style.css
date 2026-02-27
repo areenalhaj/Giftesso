@@ -47,3 +47,37 @@ a:hover {
   font-weight: 600;
   color: var(--muted-gold);
 }
+
+/* header styles:
+header {
+  background-color: var(--offwhite);
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+img.logo {
+  border-radius: 1rem;
+}
+
+
+footer {
+  background-color: var(--offwhite);
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer nav {
+  display: inline-block;
+  align-items: baseline;
+  margin-bottom: 15px;
+}
+footer p {
+  margin: 5px 0 20px 0;
+  font-size: 18px;
+} */

@@ -4,6 +4,13 @@
   --muted-gold: #c5a059;
   --rose: #e5d1d0;
 }
+
+:root {
+  --offwhite: #fcf9f5;
+  --charcoal: #2d2d2d;
+  --muted-gold: #c5a059;
+  --rose: #e5d1d0;
+}
 header {
   background-color: var(--offwhite);
   width: 100vw;
@@ -12,12 +19,6 @@ header {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-}
-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style-type: none;
 }
 img.logo {
   border-radius: 1rem;
@@ -60,7 +61,7 @@ h1 {
   justify-content: flex-start;
   align-items: center;
 }
-.order-section {
+.contact-section {
   width: 1000px;
   height: 200px;
   display: flex;
