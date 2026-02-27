@@ -114,6 +114,7 @@ a.btn {
 }
 .btn:hover {
   background-color: var(--charcoal);
+  transition: 0.3s;
 }
 
 footer {
