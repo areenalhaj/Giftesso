@@ -28,7 +28,7 @@ main {
   align-items: center;
 }
 .home-img {
-  width: 100%;
+  width: 1000px;
   height: 100%;
   object-fit: cover;
 }
@@ -36,14 +36,14 @@ h1 {
   font-size: 40px;
   position: absolute;
   top: 160px;
-  left: 100px;
+  left: 480px;
 }
 .intro-paragraph {
   font-size: 25px;
-  width: 50%;
+  width: 500px;
   position: absolute;
   top: 240px;
-  left: 100px;
+  left: 480px;
 }
 
 .intro-section {
@@ -54,7 +54,6 @@ h1 {
 .details-section {
   width: 1000px;
   height: 350px;
-  /* margin-bottom: 50px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -117,6 +116,16 @@ a.btn {
   transition: 0.3s;
 }
 
+.form-details {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+form input {
+  height: 30px;
+  font-size: 18px;
+}
 footer {
   background-color: var(--offwhite);
   width: 100vw;
@@ -134,4 +143,13 @@ footer nav {
 footer p {
   margin: 5px 0 20px 0;
   font-size: 18px;
+}
+
+@media (max-width: 480px) {
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1201px) {
 }
