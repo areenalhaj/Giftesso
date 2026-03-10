@@ -58,15 +58,7 @@ h1 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-}
-
-.order-section {
-  width: 1000px;
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
+  margin-bottom: 50px;
 }
 
 h2 {
@@ -137,7 +129,15 @@ footer nav {
 }
 footer p {
   margin: 5px 0 20px 0;
+}
+
+footer p,
+header a,
+footer a {
   font-size: 18px;
+}
+h2 {
+  font-size: 25px;
 }
 
 /* ####################  PHONE  ####################### */
@@ -164,7 +164,9 @@ footer p {
   }
   .details-section {
     width: 300px;
-    height: 350px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 70px;
     font-size: 14px;
   }
   h2 {
@@ -175,6 +177,8 @@ footer p {
   }
   form input {
     font-size: 12px;
+    height: 20px;
+    margin-block: 5px;
   }
   a.btn {
     font-size: 14px;
@@ -183,6 +187,11 @@ footer p {
   }
   footer {
     height: 20px;
+  }
+  header a,
+  footer a,
+  footer p {
+    font-size: 12px;
   }
 }
 /* ##################  TABLET  ######################### */
@@ -209,7 +218,8 @@ footer p {
   }
   .details-section {
     width: 600px;
-    height: 400px;
+    height: 350px;
+    margin-block: 50px;
   }
   .form-details {
     width: 350px;

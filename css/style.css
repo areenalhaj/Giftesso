@@ -12,6 +12,7 @@
 body {
   color: var(--charcoal);
   background-color: var(--offwhite);
+  font-size: 20px;
 }
 /* خط العناوين */
 h1,
@@ -46,6 +47,9 @@ a:hover {
   color: var(--muted-gold);
   transition: 0.3s;
 }
+ul a {
+  font-size: 18px;
+}
 @media (max-width: 650px) {
   body {
     font-size: 12px;
@@ -56,8 +60,9 @@ a:hover {
 }
 @media (min-width: 651px) and (max-width: 1000px) {
   body {
-    font-size: 20px;
+    font-size: 16px;
   }
+
   h1 {
     font-size: 22px;
   }
