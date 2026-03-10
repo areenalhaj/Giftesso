@@ -28,8 +28,8 @@ main {
   align-items: center;
 }
 .home-img {
-  width: 1000px;
-  height: 100%;
+  width: 900px;
+  height: 450px;
   object-fit: cover;
 }
 h1 {
@@ -40,7 +40,7 @@ h1 {
 }
 .intro-paragraph {
   font-size: 25px;
-  width: 500px;
+  width: 400px;
   position: absolute;
   top: 240px;
   left: 480px;
@@ -48,11 +48,11 @@ h1 {
 
 .intro-section {
   position: relative;
-  width: 1000px;
+  width: 900px;
   height: 500px;
 }
 .details-section {
-  width: 1000px;
+  width: 900px;
   height: 350px;
   display: flex;
   flex-direction: column;
@@ -110,6 +110,12 @@ form input {
   border-radius: 5px;
   border: #80683a 3px solid;
 }
+#submit-order {
+  width: 100px;
+  margin-top: 20px;
+  border: none;
+  background-color: var(--muted-gold);
+}
 form input:focus {
   outline: none;
   border-color: rgb(64, 112, 114);
@@ -143,7 +149,6 @@ footer p {
   }
   h1 {
     font-size: 14px;
-    /* 160 480 */
     top: 30px;
     left: 140px;
   }
@@ -159,7 +164,7 @@ footer p {
   }
   .details-section {
     width: 300px;
-    height: 300px;
+    height: 350px;
     font-size: 14px;
   }
   h2 {
