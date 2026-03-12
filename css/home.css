@@ -110,7 +110,8 @@ h3 {
 
 .order-section {
   width: 900px;
-  height: 150px;
+  height: auto;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -186,11 +187,6 @@ footer p {
     height: 150px;
   }
 
-  .order-section {
-    width: 300px;
-    height: 120px;
-  }
-
   .about-section {
     width: 300px;
     height: 50px;
@@ -219,6 +215,12 @@ footer p {
 
   .feature {
     margin: 0 15px;
+  }
+
+  .order-section {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
   }
 
   a.btn {
@@ -269,8 +271,8 @@ footer p {
   }
 
   .details-section {
-    width: 400px;
     height: 750px;
+    width: 350px;
     margin-top: 0;
   }
 
