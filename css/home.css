@@ -17,9 +17,10 @@ ul {
   list-style-type: none;
 }
 
-img.logo {
+.logo {
   border-radius: 1rem;
   height: 50px;
+  width: 111px;
 }
 
 main {
