@@ -1,17 +1,4 @@
-:root {
-  --offwhite: #fcf9f5;
-  --charcoal: #2d2d2d;
-  --muted-gold: #c5a059;
-  --rose: #e5d1d0;
-}
-body,
-main {
-  margin: 0;
-  padding: 0;
-}
-
-/* ####################  LAPTOP  ####################### */
-
+/*   LAPTOP   */
 header {
   background-color: var(--offwhite);
   width: 100vw;
@@ -22,15 +9,19 @@ header {
   align-items: center;
   margin-inline: auto;
 }
+
 ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   list-style-type: none;
 }
+
 img.logo {
   border-radius: 1rem;
+  height: 50px;
 }
+
 main {
   display: flex;
   flex-direction: column;
@@ -42,12 +33,14 @@ main {
   height: 450px;
   object-fit: cover;
 }
+
 h1 {
   position: absolute;
   font-size: 40px;
   top: 160px;
   left: 100px;
 }
+
 .intro-paragraph {
   position: absolute;
   font-size: 25px;
@@ -55,11 +48,27 @@ h1 {
   top: 240px;
   left: 100px;
 }
+
 .intro-section {
   position: relative;
   width: 900px;
   height: 450px;
 }
+
+.about-section {
+  width: 900px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-block: 50px;
+}
+
+.about-section h2 {
+  margin-bottom: 50px;
+}
+
 .details-section {
   width: 900px;
   height: 400px;
@@ -70,15 +79,6 @@ h1 {
   margin-top: 50px;
 }
 
-.order-section {
-  width: 900px;
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-}
-
 h2 {
   margin: 20px 0;
 }
@@ -86,12 +86,14 @@ h2 {
 h3 {
   margin: 10px 0;
 }
+
 .features {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
   text-align: center;
 }
+
 .features img {
   width: 80px;
   height: 80px;
@@ -104,6 +106,15 @@ h3 {
   align-items: center;
   margin: 0 30px;
   text-align: center;
+}
+
+.order-section {
+  width: 900px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
 }
 
 nav a {
@@ -122,6 +133,7 @@ a.btn {
   margin: 15px;
   text-decoration: none;
 }
+
 .btn:hover {
   background-color: var(--charcoal);
   transition: 0.3s;
@@ -136,46 +148,69 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
 footer nav {
   display: inline-block;
   align-items: baseline;
   margin-bottom: 15px;
 }
+
 footer p {
   margin: 5px 0 20px 0;
   font-size: 18px;
 }
 
-/* ####################  PHONE  ####################### */
+/*   PHONE   */
 
 @media (max-width: 650px) {
   .home-img {
     width: 300px;
     height: 150px;
   }
+
   h1 {
     font-size: 14px;
     top: 30px;
     left: 25px;
   }
+
   .intro-paragraph {
     font-size: 10px;
     width: 150px;
     top: 60px;
     left: 25px;
   }
+
   .intro-section {
     width: 300px;
     height: 150px;
   }
+
+  .order-section {
+    width: 300px;
+    height: 120px;
+  }
+
+  .about-section {
+    width: 300px;
+    height: 50px;
+  }
+
+  .about-section h2 {
+    margin-bottom: 20px;
+  }
+
   .details-section {
     width: 300px;
-    height: 400px;
+    height: 470px;
+    margin-top: 0;
   }
+
   .features {
     grid-template-columns: 1fr;
     gap: 5px;
   }
+
   .features img {
     width: 40px;
     height: 40px;
@@ -185,63 +220,63 @@ footer p {
   .feature {
     margin: 0 15px;
   }
+
   a.btn {
     font-size: 14px;
     font-weight: 700;
     margin: 5px;
   }
+
   footer {
-    height: 20px;
+    height: auto;
+    padding: 15px 0;
   }
 }
-/* ##################  TABLET  ######################### */
+
+/*   TABLET   */
 
 @media (min-width: 651px) and (max-width: 1000px) {
   .home-img {
     width: 600px;
     height: 300px;
   }
+
   h1 {
     font-size: 22px;
     top: 100px;
     left: 70px;
   }
+
   .intro-paragraph {
     font-size: 20px;
     width: 300px;
     top: 160px;
     left: 70px;
   }
+
   .intro-section {
     width: 600px;
     height: 300px;
   }
+
+  .about-section {
+    width: 600px;
+    height: 120px;
+  }
+
+  .about-section h2 {
+    margin-bottom: 30px;
+  }
+
   .details-section {
     width: 400px;
     height: 750px;
+    margin-top: 0;
   }
+
   .features {
     display: flex;
     flex-direction: column;
     grid-template-columns: 1fr;
-    /* gap: 5px; */
   }
-  /*
-  .features img {
-    width: 80px;
-    height: 80px;
-    margin: 10px;
-  }
-
-  .feature {
-    margin: 0 20px;
-  }
-  a.btn {
-    font-size: 20px;
-    font-weight: 700;
-    margin: 10px;
-  }
-  footer {
-    height: 80px;
-  }*/
 }
